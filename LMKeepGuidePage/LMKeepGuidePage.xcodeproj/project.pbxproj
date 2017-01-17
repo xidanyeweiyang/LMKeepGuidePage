@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A208A461E2DAB0600579FB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A451E2DAB0600579FB5 /* main.m */; };
+		8A208A491E2DAB0600579FB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A481E2DAB0600579FB5 /* AppDelegate.m */; };
+		8A208A511E2DAB0600579FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A208A501E2DAB0600579FB5 /* Assets.xcassets */; };
+		8A208A541E2DAB0600579FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A208A521E2DAB0600579FB5 /* LaunchScreen.storyboard */; };
+		8A208A601E2DAB9A00579FB5 /* KeepNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A5F1E2DAB9A00579FB5 /* KeepNewFeatureViewController.m */; };
+		8A208A621E2DB05700579FB5 /* keep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A208A611E2DB05700579FB5 /* keep.mp4 */; };
+		8A208A681E2DB3F400579FB5 /* KeepTarBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A671E2DB3F400579FB5 /* KeepTarBarViewController.m */; };
+		8A208A6B1E2DB41800579FB5 /* KeepNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A6A1E2DB41800579FB5 /* KeepNavigationViewController.m */; };
+		8A208A801E2DB46800579FB5 /* KeepPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A6F1E2DB46800579FB5 /* KeepPersonalViewController.m */; };
+		8A208A811E2DB46800579FB5 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A731E2DB46800579FB5 /* UIBarButtonItem+Extension.m */; };
+		8A208A821E2DB46800579FB5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A751E2DB46800579FB5 /* UIView+Extension.m */; };
+		8A208A831E2DB46800579FB5 /* KeepCancelHighlightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A781E2DB46800579FB5 /* KeepCancelHighlightButton.m */; };
+		8A208A841E2DB46800579FB5 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A7B1E2DB46800579FB5 /* Constant.m */; };
+		8A208A851E2DB46800579FB5 /* KeepTrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A7F1E2DB46800579FB5 /* KeepTrainViewController.m */; };
+		8A208A8F1E2DB53300579FB5 /* KeepFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A8A1E2DB53300579FB5 /* KeepFindViewController.m */; };
+		8A208A901E2DB53300579FB5 /* KeepFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A8E1E2DB53300579FB5 /* KeepFollowViewController.m */; };
+		8A208A971E2DB53900579FB5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A941E2DB53900579FB5 /* LoginViewController.m */; };
+		8A208A981E2DB53900579FB5 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A961E2DB53900579FB5 /* RegisterViewController.m */; };
+		8A208AA01E2DBDFE00579FB5 /* KeepNewFeatrueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A9B1E2DBDFE00579FB5 /* KeepNewFeatrueView.m */; };
+		8A208AA11E2DBDFE00579FB5 /* KeepAdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A9D1E2DBDFE00579FB5 /* KeepAdScrollView.m */; };
+		8A208AA21E2DBDFE00579FB5 /* KeepAdLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A208A9F1E2DBDFE00579FB5 /* KeepAdLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A208A411E2DAB0600579FB5 /* LMKeepGuidePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMKeepGuidePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A208A451E2DAB0600579FB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A208A471E2DAB0600579FB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A208A481E2DAB0600579FB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A208A501E2DAB0600579FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		8A208A531E2DAB0600579FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A208A551E2DAB0600579FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A208A5E1E2DAB9A00579FB5 /* KeepNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNewFeatureViewController.h; sourceTree = "<group>"; };
+		8A208A5F1E2DAB9A00579FB5 /* KeepNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNewFeatureViewController.m; sourceTree = "<group>"; };
+		8A208A611E2DB05700579FB5 /* keep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = keep.mp4; sourceTree = "<group>"; };
+		8A208A661E2DB3F400579FB5 /* KeepTarBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepTarBarViewController.h; sourceTree = "<group>"; };
+		8A208A671E2DB3F400579FB5 /* KeepTarBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepTarBarViewController.m; sourceTree = "<group>"; };
+		8A208A691E2DB41800579FB5 /* KeepNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNavigationViewController.h; sourceTree = "<group>"; };
+		8A208A6A1E2DB41800579FB5 /* KeepNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNavigationViewController.m; sourceTree = "<group>"; };
+		8A208A6E1E2DB46800579FB5 /* KeepPersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepPersonalViewController.h; sourceTree = "<group>"; };
+		8A208A6F1E2DB46800579FB5 /* KeepPersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepPersonalViewController.m; sourceTree = "<group>"; };
+		8A208A721E2DB46800579FB5 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		8A208A731E2DB46800579FB5 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		8A208A741E2DB46800579FB5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		8A208A751E2DB46800579FB5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		8A208A771E2DB46800579FB5 /* KeepCancelHighlightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepCancelHighlightButton.h; sourceTree = "<group>"; };
+		8A208A781E2DB46800579FB5 /* KeepCancelHighlightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepCancelHighlightButton.m; sourceTree = "<group>"; };
+		8A208A7A1E2DB46800579FB5 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		8A208A7B1E2DB46800579FB5 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		8A208A7E1E2DB46800579FB5 /* KeepTrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepTrainViewController.h; sourceTree = "<group>"; };
+		8A208A7F1E2DB46800579FB5 /* KeepTrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepTrainViewController.m; sourceTree = "<group>"; };
+		8A208A891E2DB53300579FB5 /* KeepFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepFindViewController.h; sourceTree = "<group>"; };
+		8A208A8A1E2DB53300579FB5 /* KeepFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepFindViewController.m; sourceTree = "<group>"; };
+		8A208A8D1E2DB53300579FB5 /* KeepFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepFollowViewController.h; sourceTree = "<group>"; };
+		8A208A8E1E2DB53300579FB5 /* KeepFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepFollowViewController.m; sourceTree = "<group>"; };
+		8A208A931E2DB53900579FB5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8A208A941E2DB53900579FB5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8A208A951E2DB53900579FB5 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		8A208A961E2DB53900579FB5 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		8A208A9A1E2DBDFE00579FB5 /* KeepNewFeatrueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepNewFeatrueView.h; sourceTree = "<group>"; };
+		8A208A9B1E2DBDFE00579FB5 /* KeepNewFeatrueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepNewFeatrueView.m; sourceTree = "<group>"; };
+		8A208A9C1E2DBDFE00579FB5 /* KeepAdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepAdScrollView.h; sourceTree = "<group>"; };
+		8A208A9D1E2DBDFE00579FB5 /* KeepAdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepAdScrollView.m; sourceTree = "<group>"; };
+		8A208A9E1E2DBDFE00579FB5 /* KeepAdLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeepAdLabel.h; sourceTree = "<group>"; };
+		8A208A9F1E2DBDFE00579FB5 /* KeepAdLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeepAdLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A208A3E1E2DAB0600579FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A208A381E2DAB0600579FB5 = {
+			isa = PBXGroup;
+			children = (
+				8A208A431E2DAB0600579FB5 /* LMKeepGuidePage */,
+				8A208A421E2DAB0600579FB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A208A421E2DAB0600579FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A411E2DAB0600579FB5 /* LMKeepGuidePage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A208A431E2DAB0600579FB5 /* LMKeepGuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A471E2DAB0600579FB5 /* AppDelegate.h */,
+				8A208A481E2DAB0600579FB5 /* AppDelegate.m */,
+				8A208A651E2DB3CA00579FB5 /* Main */,
+				8A208A5B1E2DAB3D00579FB5 /* NewFeature */,
+				8A208A911E2DB53900579FB5 /* Account(账号) */,
+				8A208A871E2DB53300579FB5 /* Find(发现) */,
+				8A208A8B1E2DB53300579FB5 /* Follow(关注) */,
+				8A208A6C1E2DB46800579FB5 /* PersonalCenter(个人中心) */,
+				8A208A701E2DB46800579FB5 /* Public(公共库) */,
+				8A208A7C1E2DB46800579FB5 /* Train(训练) */,
+				8A208A991E2DB55500579FB5 /* Other */,
+				8A208A441E2DAB0600579FB5 /* Supporting Files */,
+			);
+			path = LMKeepGuidePage;
+			sourceTree = "<group>";
+		};
+		8A208A441E2DAB0600579FB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A551E2DAB0600579FB5 /* Info.plist */,
+				8A208A611E2DB05700579FB5 /* keep.mp4 */,
+				8A208A451E2DAB0600579FB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A208A5B1E2DAB3D00579FB5 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A5C1E2DAB3D00579FB5 /* View */,
+				8A208A5D1E2DAB3D00579FB5 /* ViewController */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		8A208A5C1E2DAB3D00579FB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A9A1E2DBDFE00579FB5 /* KeepNewFeatrueView.h */,
+				8A208A9B1E2DBDFE00579FB5 /* KeepNewFeatrueView.m */,
+				8A208A9C1E2DBDFE00579FB5 /* KeepAdScrollView.h */,
+				8A208A9D1E2DBDFE00579FB5 /* KeepAdScrollView.m */,
+				8A208A9E1E2DBDFE00579FB5 /* KeepAdLabel.h */,
+				8A208A9F1E2DBDFE00579FB5 /* KeepAdLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A208A5D1E2DAB3D00579FB5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A5E1E2DAB9A00579FB5 /* KeepNewFeatureViewController.h */,
+				8A208A5F1E2DAB9A00579FB5 /* KeepNewFeatureViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8A208A651E2DB3CA00579FB5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A661E2DB3F400579FB5 /* KeepTarBarViewController.h */,
+				8A208A671E2DB3F400579FB5 /* KeepTarBarViewController.m */,
+				8A208A691E2DB41800579FB5 /* KeepNavigationViewController.h */,
+				8A208A6A1E2DB41800579FB5 /* KeepNavigationViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8A208A6C1E2DB46800579FB5 /* PersonalCenter(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A6D1E2DB46800579FB5 /* Controller */,
+			);
+			path = "PersonalCenter(个人中心)";
+			sourceTree = "<group>";
+		};
+		8A208A6D1E2DB46800579FB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A6E1E2DB46800579FB5 /* KeepPersonalViewController.h */,
+				8A208A6F1E2DB46800579FB5 /* KeepPersonalViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A208A701E2DB46800579FB5 /* Public(公共库) */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A711E2DB46800579FB5 /* Category */,
+				8A208A761E2DB46800579FB5 /* CustomView */,
+				8A208A791E2DB46800579FB5 /* Other */,
+			);
+			path = "Public(公共库)";
+			sourceTree = "<group>";
+		};
+		8A208A711E2DB46800579FB5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A721E2DB46800579FB5 /* UIBarButtonItem+Extension.h */,
+				8A208A731E2DB46800579FB5 /* UIBarButtonItem+Extension.m */,
+				8A208A741E2DB46800579FB5 /* UIView+Extension.h */,
+				8A208A751E2DB46800579FB5 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8A208A761E2DB46800579FB5 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A771E2DB46800579FB5 /* KeepCancelHighlightButton.h */,
+				8A208A781E2DB46800579FB5 /* KeepCancelHighlightButton.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8A208A791E2DB46800579FB5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A7A1E2DB46800579FB5 /* Constant.h */,
+				8A208A7B1E2DB46800579FB5 /* Constant.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8A208A7C1E2DB46800579FB5 /* Train(训练) */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A7D1E2DB46800579FB5 /* Controller */,
+			);
+			path = "Train(训练)";
+			sourceTree = "<group>";
+		};
+		8A208A7D1E2DB46800579FB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A7E1E2DB46800579FB5 /* KeepTrainViewController.h */,
+				8A208A7F1E2DB46800579FB5 /* KeepTrainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A208A871E2DB53300579FB5 /* Find(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A881E2DB53300579FB5 /* Controller */,
+			);
+			path = "Find(发现)";
+			sourceTree = "<group>";
+		};
+		8A208A881E2DB53300579FB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A891E2DB53300579FB5 /* KeepFindViewController.h */,
+				8A208A8A1E2DB53300579FB5 /* KeepFindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A208A8B1E2DB53300579FB5 /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A8C1E2DB53300579FB5 /* Controller */,
+			);
+			path = "Follow(关注)";
+			sourceTree = "<group>";
+		};
+		8A208A8C1E2DB53300579FB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A8D1E2DB53300579FB5 /* KeepFollowViewController.h */,
+				8A208A8E1E2DB53300579FB5 /* KeepFollowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A208A911E2DB53900579FB5 /* Account(账号) */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A921E2DB53900579FB5 /* Controller */,
+			);
+			path = "Account(账号)";
+			sourceTree = "<group>";
+		};
+		8A208A921E2DB53900579FB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A931E2DB53900579FB5 /* LoginViewController.h */,
+				8A208A941E2DB53900579FB5 /* LoginViewController.m */,
+				8A208A951E2DB53900579FB5 /* RegisterViewController.h */,
+				8A208A961E2DB53900579FB5 /* RegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A208A991E2DB55500579FB5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8A208A501E2DAB0600579FB5 /* Assets.xcassets */,
+				8A208A521E2DAB0600579FB5 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A208A401E2DAB0600579FB5 /* LMKeepGuidePage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A208A581E2DAB0600579FB5 /* Build configuration list for PBXNativeTarget "LMKeepGuidePage" */;
+			buildPhases = (
+				8A208A3D1E2DAB0600579FB5 /* Sources */,
+				8A208A3E1E2DAB0600579FB5 /* Frameworks */,
+				8A208A3F1E2DAB0600579FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMKeepGuidePage;
+			productName = LMKeepGuidePage;
+			productReference = 8A208A411E2DAB0600579FB5 /* LMKeepGuidePage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A208A391E2DAB0600579FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "刘明";
+				TargetAttributes = {
+					8A208A401E2DAB0600579FB5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PPW9FUQJ5U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A208A3C1E2DAB0600579FB5 /* Build configuration list for PBXProject "LMKeepGuidePage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A208A381E2DAB0600579FB5;
+			productRefGroup = 8A208A421E2DAB0600579FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A208A401E2DAB0600579FB5 /* LMKeepGuidePage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A208A3F1E2DAB0600579FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A208A621E2DB05700579FB5 /* keep.mp4 in Resources */,
+				8A208A541E2DAB0600579FB5 /* LaunchScreen.storyboard in Resources */,
+				8A208A511E2DAB0600579FB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A208A3D1E2DAB0600579FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A208A8F1E2DB53300579FB5 /* KeepFindViewController.m in Sources */,
+				8A208A821E2DB46800579FB5 /* UIView+Extension.m in Sources */,
+				8A208A6B1E2DB41800579FB5 /* KeepNavigationViewController.m in Sources */,
+				8A208A841E2DB46800579FB5 /* Constant.m in Sources */,
+				8A208A971E2DB53900579FB5 /* LoginViewController.m in Sources */,
+				8A208AA01E2DBDFE00579FB5 /* KeepNewFeatrueView.m in Sources */,
+				8A208A681E2DB3F400579FB5 /* KeepTarBarViewController.m in Sources */,
+				8A208A491E2DAB0600579FB5 /* AppDelegate.m in Sources */,
+				8A208AA11E2DBDFE00579FB5 /* KeepAdScrollView.m in Sources */,
+				8A208A851E2DB46800579FB5 /* KeepTrainViewController.m in Sources */,
+				8A208A811E2DB46800579FB5 /* UIBarButtonItem+Extension.m in Sources */,
+				8A208A801E2DB46800579FB5 /* KeepPersonalViewController.m in Sources */,
+				8A208A981E2DB53900579FB5 /* RegisterViewController.m in Sources */,
+				8A208A831E2DB46800579FB5 /* KeepCancelHighlightButton.m in Sources */,
+				8A208AA21E2DBDFE00579FB5 /* KeepAdLabel.m in Sources */,
+				8A208A901E2DB53300579FB5 /* KeepFollowViewController.m in Sources */,
+				8A208A461E2DAB0600579FB5 /* main.m in Sources */,
+				8A208A601E2DAB9A00579FB5 /* KeepNewFeatureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A208A521E2DAB0600579FB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A208A531E2DAB0600579FB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A208A561E2DAB0600579FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A208A571E2DAB0600579FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A208A591E2DAB0600579FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = PPW9FUQJ5U;
+				INFOPLIST_FILE = LMKeepGuidePage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LM.app.LMKeepGuidePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A208A5A1E2DAB0600579FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = PPW9FUQJ5U;
+				INFOPLIST_FILE = LMKeepGuidePage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LM.app.LMKeepGuidePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A208A3C1E2DAB0600579FB5 /* Build configuration list for PBXProject "LMKeepGuidePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A208A561E2DAB0600579FB5 /* Debug */,
+				8A208A571E2DAB0600579FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A208A581E2DAB0600579FB5 /* Build configuration list for PBXNativeTarget "LMKeepGuidePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A208A591E2DAB0600579FB5 /* Debug */,
+				8A208A5A1E2DAB0600579FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A208A391E2DAB0600579FB5 /* Project object */;
+}
